@@ -46,6 +46,7 @@ MainWindow::MainWindow(QWidget *parent) :
     mlabel = new QLabel(this);
     mlabel->setGeometry(0,0,48,48);
     mlabel->setPixmap(pic);
+    mlabel->setCursor(Qt::PointingHandCursor);
     mlabel->show();
 }
 
